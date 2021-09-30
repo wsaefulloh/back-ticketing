@@ -1,152 +1,84 @@
-<!-- PROJECT LOGO -->
-<br />
+<h1 align="center">Ankasa RESTful API with Express</h1>
 <p align="center">
-  <a href="https://github.com/calvinrahmat/blanja.git">
+  <a href="https://github.com/wsaefulloh/back-ticketing">
     <img src="https://res.cloudinary.com/calvin-cloud/image/upload/v1631588597/Ankasa/Logo_Ankasa_cm4gp9.svg"  alt="LogoAnkasa">
   </a>
 
   <p align="center">
-    <a href="https://ankasa.glitch.me/home" target="blank">View Demo</a>
-  · <a href="https://github.com/Gustiana882/back-ticketing/issues">Report Bug</a>
-  · <a href="https://github.com/Gustiana882/back-ticketing/pulls">Request Feature</a>
-</p>
+    <a href="https://ankasa.online" target="blank">View Demo</a>
+  · <a href="https://github.com/wsaefulloh/back-ticketing/issues">Report Bug</a>
+  · <a href="https://github.com/wsaefulloh/back-ticketing/pulls">Request Feature</a>
+  </p>
 </p>
 
-
-## 💻 Built with
+## Built With
 
 [![Express.js](https://img.shields.io/badge/Express.js-4.x-orange.svg?style=rounded-square)](https://expressjs.com/en/starter/installing.html)
 [![Node.js](https://img.shields.io/badge/Node.js-v.12.13-green.svg?style=rounded-square)](https://nodejs.org/)
-[![npm version](https://img.shields.io/npm/v/@bigcommerce/big-design-icons.svg?style=flat)](https://www.npmjs.com/package/@bigcommerce/big-design)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v.13.3-blue.svg?style=rounded-square)](https://www.postgresql.org/)
-[![Redis](https://img.shields.io/badge/Redis-v.6.2-red.svg?style=rounded-square)](https://redis.io/)
 
-## Back to Frontend
+## Description about project
+Angkasa is a flight ticket booking application project that was built and developed as a team. This application makes it easy for you to order airline tickets anywhere and anytime because it is based online. Built with React Js on the front, Node Js and Express Js on the back. The database used on this website is based on PostgreSQL which is operated using sequel. The features available on this website include flight search features, flight filters, and transit filters.
 
-<a href="https://github.com/Gustiana882/front-ticketing">https://github.com/Gustiana882/front-ticketing</a>
+## Installation Steps
 
-## Clone the repository
+1. Clone the repository
 
-```bash
+   ```bash
+    https://github.com/wsaefulloh/back-ticketing
+    ```
 
-  git clone https://github.com/Gustiana882/back-ticketing.git
-  
-```
+2. Install dependencies
 
-### Install dependencies
-```bash
+   ```bash
+   npm install
+   ```
 
-  yarn install
-  
-```
+3. Add .env file at root folder project
 
-### run app
-```bash
+   ```sh
+   NODE_ENV = your_node_env
+   
+   PGUSER = your_db_user
+   PGDATABASE = your_database
+   PGPASSWORD = your_pass
+   PGHOST = your_host
+   
+   CLOUD_NAME = your_cloud_name
+   CLOUD_KEYS = your_cloud_keys
+   CLOUD_SECRETS = your_cloud_secrets
+   
+   JWT_KEY = your_jwt_keys
+   ```
 
-  cd back-ticketing
+4. Test the app
 
-  yarn start
-  
-```
+   ```bash
+   npm test
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+5. Run the app
 
-### `yarn build`
+   ```bash
+   npm start
+   ```
 
-```bash
+6. You are all set!
 
-  yarn run build
-  
-```
-## for developer
+   ```bash
+   Backend running at: http://localhost:8000
+   ```
 
-### standar request login 
-```bash
-  {
-    "email": "user",
-    "password":"user1234"
-  }
-```
 
-### standar request register
-```bash
-  {
-    "name": "user",
-    "email": "user@mail.com",
-    "password": "user1234"
-```
+## Frontend Repository
+Frontend API : Ankasa - Frontend [here](https://github.com/wsaefulloh/front-ticketing)
 
-### standar response ticket API
-```bash
-  [
-    { 
-      "id" : "1",
-      "uuid": "AB-221",
-      "image": "img.jpg",
-      "maskapai" : "Garuda Indonesia",
-      "from": "Indonesi",
-      "to": "Tokyo",
-      "time": {
-            "depature": "00:00",
-            "arrived": "04:00",
-            "transit": "1",
-          },
-       "price": {
-            "idclass": 3,
-            "class": "Economy",
-            "adult": 1200000,
-            "child": 800000,
-          },
-       "date": "Monday, 20 july 20",
-       "chairsAmount": 108,
-       "gate": 221,
-       "terminal": "A",
-    }
-  ]
-```
 
-### standar request booking ticket
-```bash
-{
-  "title": "Mr.",
-  "name": "Budi",
-  "nationallity": "Indonesia",
-  "userId": 1,
-  "idTicket": "AB-221",
-  "Price": 3000000,
-  "statusPay": false,
-}
-  
-```
+## End Point
+You can see all the end point [here](https://documenter.getpostman.com/view/16508598/TzzDKF4c)
 
-### standar response destination
-```bash
-[
-  {
-    "id": 1,
-    "city": "Jakarta",
-    "country": "Indonesia",
-    "image": "image"
-   }
-]
-```
-
-### standar request booking ticket
-```bash
-[
-  {
-    "idSchedule": "A-212",
-    "namePerson": "Mike Kowalski",
-    "emailPerson": "mikekowalski@gmail.com",
-    "phonePerson": "+62-819876563",
-    "namePassenger": "Mike Kowalsky",
-    "nationality": "indonesia",
-    "totalPrice": 145,
-    "insurance" false,
-  }
-]
-```
+<hr>
+<p align="center">
+Developed with ❤️ in Indonesia 	🇮🇩
+</p>
