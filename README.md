@@ -18,7 +18,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v.13.3-blue.svg?style=rounded-square)](https://www.postgresql.org/)
 
 ## Description about project
-Angkasa is a flight ticket booking application project that was built and developed as a team. This application makes it easy for you to order airline tickets anywhere and anytime because it is based online. Built with React Js on the front, Node Js and Express Js on the back. The database used on this website is based on PostgreSQL which is operated using sequel. The features available on this website include flight search features, flight filters, and transit filters.
+Ankasa is a flight ticket booking application project that was built and developed as a team. This application makes it easy for you to order airline tickets anywhere and anytime because it is based online. Built with React Js on the frontend, Node Js and Express Js on the backend. The database used on this website is based on PostgreSQL which is operated using sequel. The features available on this website include flight search features, flight filters, and transit filters.
 
 ## Installation Steps
 
@@ -72,7 +72,7 @@ Angkasa is a flight ticket booking application project that was built and develo
 
 
 ## Frontend Repository
-Frontend API : Ankasa - Frontend [here](https://github.com/wsaefulloh/front-ticketing)
+Frontend API : Ankasa - Frontend [here](https://github.com/wsaefulloh/front-ankasa)
 
 
 ## End Point
