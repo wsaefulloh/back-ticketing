@@ -9630,3 +9630,73 @@
 [34m[39m
 2021-10-25 04:27:42:2742 [34mhttp[39m: [34mGET /destination/all 304 - - 691.290 ms[39m
 [34m[39m
+2022-03-19 00:42:37:4237 [34mhttp[39m: [34mGET /user/ 404 17 - 30.699 ms[39m
+[34m[39m
+2022-03-19 00:43:20:4320 [34mhttp[39m: [34mGET /user/ 404 17 - 3.607 ms[39m
+[34m[39m
+2022-03-19 00:45:14:4514 [34mhttp[39m: [34mPOST /register 200 87 - 518.103 ms[39m
+[34m[39m
+2022-03-19 00:45:14:4514 [34mhttp[39m: [34mGET /user/ 404 17 - 0.871 ms[39m
+[34m[39m
+2022-03-19 00:45:55:4555 [34mhttp[39m: [34mGET /user/ 404 17 - 0.780 ms[39m
+[34m[39m
+2022-03-19 00:46:20:4620 [34mhttp[39m: [34mGET /destination/all 200 2028 - 302.945 ms[39m
+[34m[39m
+2022-03-19 00:46:20:4620 [34mhttp[39m: [34mGET /destination/all 304 - - 5.842 ms[39m
+[34m[39m
+2022-03-19 00:46:21:4621 [34mhttp[39m: [34mGET /destination/all 304 - - 10.370 ms[39m
+[34m[39m
+2022-03-19 00:49:39:4939 [34mhttp[39m: [34mGET /user/ 404 17 - 0.858 ms[39m
+[34m[39m
+2022-03-19 00:50:33:5033 [34mhttp[39m: [34mGET /user/ 404 17 - 1.125 ms[39m
+[34m[39m
+2022-03-19 00:53:50:5350 [34mhttp[39m: [34mPOST /login 200 306 - 249.768 ms[39m
+[34m[39m
+2022-03-19 00:53:51:5351 [34mhttp[39m: [34mGET /user/ 404 17 - 0.832 ms[39m
+[34m[39m
+2022-03-19 00:53:51:5351 [34mhttp[39m: [34mGET /user/admin@email.com 200 435 - 23.965 ms[39m
+[34m[39m
+2022-03-19 00:53:51:5351 [34mhttp[39m: [34mGET /user/admin@email.com 304 - - 4.169 ms[39m
+[34m[39m
+2022-03-19 00:53:51:5351 [34mhttp[39m: [34mGET /destination/all 304 - - 6.685 ms[39m
+[34m[39m
+2022-03-19 00:53:51:5351 [34mhttp[39m: [34mGET /destination/all 304 - - 6.484 ms[39m
+[34m[39m
+2022-03-19 00:53:51:5351 [34mhttp[39m: [34mGET /destination/all 304 - - 5.838 ms[39m
+[34m[39m
+2022-03-19 00:54:15:5415 [34mhttp[39m: [34mGET /user/admin@email.com 304 - - 384.006 ms[39m
+[34m[39m
+2022-03-19 00:54:15:5415 [34mhttp[39m: [34mGET /search?from=SG&to=MY&Class=Economy 200 45 - 375.372 ms[39m
+[34m[39m
+2022-03-19 00:54:20:5420 [34mhttp[39m: [34mGET /destination/all 304 - - 6.175 ms[39m
+[34m[39m
+2022-03-19 00:54:20:5420 [34mhttp[39m: [34mGET /user/admin@email.com 304 - - 22.146 ms[39m
+[34m[39m
+2022-03-19 00:54:20:5420 [34mhttp[39m: [34mGET /destination/all 304 - - 40.021 ms[39m
+[34m[39m
+2022-03-19 00:54:20:5420 [34mhttp[39m: [34mGET /destination/all 304 - - 12.056 ms[39m
+[34m[39m
+2022-03-19 00:54:29:5429 [34mhttp[39m: [34mGET /user/admin@email.com 304 - - 4.244 ms[39m
+[34m[39m
+2022-03-19 00:54:29:5429 [34mhttp[39m: [34mGET /search?from=MY&to=ID&Class=Economy 200 45 - 59.160 ms[39m
+[34m[39m
+2022-03-19 00:54:32:5432 [34mhttp[39m: [34mGET /user/admin@email.com 304 - - 5.961 ms[39m
+[34m[39m
+2022-03-19 00:54:32:5432 [34mhttp[39m: [34mGET /destination/all 304 - - 4.895 ms[39m
+[34m[39m
+2022-03-19 00:54:32:5432 [34mhttp[39m: [34mGET /destination/all 304 - - 17.653 ms[39m
+[34m[39m
+2022-03-19 00:54:32:5432 [34mhttp[39m: [34mGET /destination/all 304 - - 25.135 ms[39m
+[34m[39m
+2022-03-19 00:54:38:5438 [34mhttp[39m: [34mGET /search?from=ID&to=MY&Class=Economy 200 7302 - 41.905 ms[39m
+[34m[39m
+2022-03-19 00:54:38:5438 [34mhttp[39m: [34mGET /user/admin@email.com 304 - - 21.508 ms[39m
+[34m[39m
+2022-03-19 00:55:40:5540 [34mhttp[39m: [34mGET /schedule/36 200 856 - 320.093 ms[39m
+[34m[39m
+2022-03-19 00:55:40:5540 [34mhttp[39m: [34mGET /destination/all 304 - - 305.901 ms[39m
+[34m[39m
+2022-03-19 00:55:40:5540 [34mhttp[39m: [34mGET /user/admin@email.com 304 - - 38.820 ms[39m
+[34m[39m
+2022-03-19 00:56:11:5611 [34mhttp[39m: [34mGET /user/admin@email.com 304 - - 149.780 ms[39m
+[34m[39m
